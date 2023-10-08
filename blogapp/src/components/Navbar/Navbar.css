@@ -1,0 +1,44 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #000;
+    color: white;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.navbar .icon{
+    font-size: 30px;
+}
+.navbar-left{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.navbar-left button{
+    text-decoration: none;
+    color: white;
+    background: #000;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.navbar-middle img{
+    height: 30px;
+    object-fit: contain;
+}
+.navbar-right span{
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.navbar-right span:hover{
+    color: var(--col1);
+}
+.navbar .icon:hover{
+    fill: var(--col1);
+}
