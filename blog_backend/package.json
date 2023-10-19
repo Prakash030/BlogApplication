@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-server": "cd blog_backend && npm install",
+    "start-server": "cd blog_backend && node app.js",
+    "install-client": "cd blogapp && npm install",
+    "build-client": "cd blogapp && npm run build",
+    "start-client": "cd blogapp && npm run start"
   },
   "author": "",
   "license": "ISC",
