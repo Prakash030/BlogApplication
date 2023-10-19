@@ -1,4 +1,5 @@
 import React from 'react'
+import './CategoryCard.css'
 // Category.propTypes = {
 //     name: PropTypes.string,
 //     path: PropTypes.string,
@@ -9,17 +10,10 @@ export const CategoriesCard = (data) => {
   const {name, path, bgcolor} = data;
   return (
     <div
-    style={{
-        width: '300px',
-        height: '200px',
-        display: 'flex',
-        background: bgcolor,
-        justifyContent: 'center',
-        alignItems: 'center',
-    }}
+    className='categorycard'
     >
       <p
-      style={{color: 'white', fontSize: '15px'}}
+      style={{fontSize: '18px'}}
 
       >
         {name}
