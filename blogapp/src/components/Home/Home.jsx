@@ -26,11 +26,11 @@ const Home = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="./SliderImages/pic1.png" alt="" style={{width:"100%", height:"28rem", objectFit:"cover"}}/>
+          <img src="./SliderImages/pic1.png" alt="" className='slider'/>
         </SwiperSlide>
         
         <SwiperSlide>
-          <img src="./SliderImages/pic2.png" alt="" style={{width:"100%", height:"28rem", objectFit:"cover"}}/>
+          <img src="./SliderImages/pic2.png" alt="" className='slider'/>
         </SwiperSlide>
 
       </Swiper>

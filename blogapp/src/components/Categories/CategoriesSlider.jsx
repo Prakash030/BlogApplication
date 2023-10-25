@@ -45,26 +45,26 @@ const CategoriesSlider = () => {
         getCategories()
       }, [])
     
-    function createHex() {
-        var hexCode1 = "";
-        var hexValues1 = "0123456789abcdef";
+    // function createHex() {
+    //     var hexCode1 = "";
+    //     var hexValues1 = "0123456789abcdef";
         
-        for ( var i = 0; i < 6; i++ ) {
-          hexCode1 += hexValues1.charAt(Math.floor(Math.random() * hexValues1.length));
-        }
-        return hexCode1;
-      }
+    //     for ( var i = 0; i < 6; i++ ) {
+    //       hexCode1 += hexValues1.charAt(Math.floor(Math.random() * hexValues1.length));
+    //     }
+    //     return hexCode1;
+    //   }
 
-      function generate() {
+    //   function generate() {
   
-        var deg = Math.floor(Math.random() *360);
+    //     var deg = Math.floor(Math.random() *360);
         
-        var gradient = "linear-gradient(" + deg + "deg, " + "#" + createHex() + ", " + "#" + createHex() +")";
+    //     var gradient = "linear-gradient(" + deg + "deg, " + "#" + createHex() + ", " + "#" + createHex() +")";
         
-        console.log(gradient);
-        return gradient;
+    //     console.log(gradient);
+    //     return gradient;
        
-      }
+    //   }
 
     return (
         <div className='sliderout'>

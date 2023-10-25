@@ -26,7 +26,7 @@ body{
     gap: 10px;
     align-items: center;
 }
-.forminput_cont input{
+.forminput_cont input, select{
     color: #333;
     font-size: 1.2rem;
     padding: 1rem 2rem;
@@ -127,4 +127,11 @@ body{
     padding: 5px 10px;
     border-bottom: 4px solid var(--col1);
     align-self: center;
+  }
+  @media (max-width: 768px){
+    .forminput_cont input,
+    .forminput_cont textarea,
+    select{
+        font-size: 0.8rem;
+    }
   }
